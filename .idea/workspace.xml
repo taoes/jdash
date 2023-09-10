@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a991f2-bf7a-41e0-ab47-9fd71e0c292d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Maps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Sets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/src/main/java/com/idevkit/lib/jdash/str/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/src/test/java/com/idevkit/lib/jdash/str/StringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/string/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,29 +27,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/string.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdash.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/CollectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="-8">
+              <caret column="40" selection-start-column="8" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
@@ -59,41 +40,86 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Sets.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/src/main/java/com/idevkit/lib/jdash/str/Strings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="387">
+              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
+                <element signature="docComment;method#empty#0;class#Strings#0" />
+                <element signature="method#blank#0;class#Strings#0" />
+                <element signature="e#375#411#1" />
+                <element signature="e#488#593#1" />
+                <element signature="e#538#583#1" />
+                <element signature="docComment;method#cameCase#0;class#Strings#0" />
+                <element signature="method#capitalize#0;class#Strings#0" />
+                <element signature="e#366#395#1" />
+                <element signature="method#upperCaseFirst#1;class#Strings#0" />
+                <element signature="e#1190#1225#1" />
+                <element signature="n#!!block;n#upperCase#0;n#Strings#0" />
+                <element signature="n#!!block;n#lowerCase#0;n#Strings#0" />
+                <element signature="method#endWith#0;class#Strings#0" />
+                <element signature="e#1186#1223#1" />
+                <element signature="method#padFromRight#0;class#Strings#0" />
+                <element signature="e#1643#1678#1" />
+                <element signature="e#1770#1799#1" />
+                <element signature="e#1860#1891#1" />
+                <element signature="method#padFromLeft#0;class#Strings#0" />
+                <element signature="e#2070#2103#1" />
+                <element signature="e#2193#2237#1" />
+                <element signature="e#2306#2355#1" />
+                <element signature="method#repeat#0;class#Strings#0" />
+                <element signature="e#2626#2657#1" />
+                <element signature="e#2773#2803#1" />
+                <element signature="e#3308#3309#0" expanded="true" />
+                <element signature="e#3325#3326#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Maps.java">
+        <entry file="jar://$USER_HOME$/soft/jdk/jdk1.8.0_181/src.zip!/java/lang/AbstractStringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="302">
+              <caret line="449" column="13" selection-start-line="449" selection-start-column="8" selection-end-line="449" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/soft/jdk/jdk1.8.0_181/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="1447" column="34" selection-start-line="1447" selection-start-column="28" selection-end-line="1447" selection-end-column="34" />
               <folding>
-                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#56437#56438#0" expanded="true" />
+                <element signature="e#56514#56515#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Lists.java">
+        <entry file="jar://$USER_HOME$/soft/jdk/jdk1.8.0_181/src.zip!/java/lang/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="736">
+              <caret line="6755" column="26" selection-start-line="6755" selection-start-column="26" selection-end-line="6755" selection-end-column="26" />
+              <folding>
+                <element signature="e#244767#244768#0" expanded="true" />
+                <element signature="e#244811#244812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/src/test/java/com/idevkit/lib/jdash/str/StringsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="116" column="41" lean-forward="true" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,28 +128,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="304">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/object/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -133,6 +146,7 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -174,12 +188,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/math/pom.xml" />
         <option value="$PROJECT_DIR$/object/pom.xml" />
-        <option value="$PROJECT_DIR$/string/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/CollectionMaker.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Maps.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Lists.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/Sets.java" />
+        <option value="$PROJECT_DIR$/string/pom.xml" />
+        <option value="$PROJECT_DIR$/string/src/test/java/com/idevkit/lib/jdash/str/StringsTest.java" />
+        <option value="$PROJECT_DIR$/string/src/main/java/com/idevkit/lib/jdash/str/Strings.java" />
       </list>
     </option>
   </component>
@@ -203,11 +219,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jdash" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="string" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jdash" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="string" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -223,6 +239,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -238,88 +255,61 @@
             <path>
               <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdash" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdash" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="str" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdash" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdash" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="idevkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="idevkit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="idevkit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="idevkit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdash" type="462c0819:PsiDirectoryNode" />
-              <item name="func" type="462c0819:PsiDirectoryNode" />
+              <item name="str" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,8 +320,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/array/src/main/java/com/idevkit/lib/jdash/array" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -340,9 +331,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.idevkit.lib.jdash.str" />
       <recent name="com.idevkit.lib.jdash.collection" />
       <recent name="com.idevkit.lib.jdash.array" />
     </key>
@@ -366,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionUtilTest">
+  <component name="RunManager" selected="JUnit.StringsTest">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="jdash" />
       <working_directory value="$PROJECT_DIR$" />
@@ -386,47 +379,80 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="ArrayUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="array" />
+    <configuration name="StringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.idevkit.lib.jdash.array.*" />
+          <option name="PATTERN" value="com.idevkit.lib.jdash.str.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.array" />
-      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.array.ArrayUtilsTest" />
+      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.str" />
+      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.str.StringsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collection" />
+    <configuration name="StringsTest.endWith" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.idevkit.lib.jdash.collection.*" />
+          <option name="PATTERN" value="com.idevkit.lib.jdash.str.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.collection.CollectionUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.str" />
+      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.str.StringsTest" />
+      <option name="METHOD_NAME" value="endWith" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionUtilTest.foreachRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collection" />
+    <configuration name="StringsTest.fileToTail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.idevkit.lib.jdash.collection.*" />
+          <option name="PATTERN" value="com.idevkit.lib.jdash.str.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.collection.CollectionUtilTest" />
-      <option name="METHOD_NAME" value="foreachRight" />
+      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.str" />
+      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.str.StringsTest" />
+      <option name="METHOD_NAME" value="fileToTail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringsTest.padFromLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.idevkit.lib.jdash.str.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.str" />
+      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.str.StringsTest" />
+      <option name="METHOD_NAME" value="padFromLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringsTest.repeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.idevkit.lib.jdash.str.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.idevkit.lib.jdash.str" />
+      <option name="MAIN_CLASS_NAME" value="com.idevkit.lib.jdash.str.StringsTest" />
+      <option name="METHOD_NAME" value="repeat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -434,9 +460,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CollectionUtilTest" />
-        <item itemvalue="JUnit.CollectionUtilTest.foreachRight" />
-        <item itemvalue="JUnit.ArrayUtilsTest" />
+        <item itemvalue="JUnit.StringsTest" />
+        <item itemvalue="JUnit.StringsTest.repeat" />
+        <item itemvalue="JUnit.StringsTest.fileToTail" />
+        <item itemvalue="JUnit.StringsTest.padFromLeft" />
+        <item itemvalue="JUnit.StringsTest.endWith" />
       </list>
     </recent_temporary>
   </component>
@@ -447,68 +475,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694279922039</updated>
-      <workItem from="1694279925688" duration="4933000" />
+      <workItem from="1694279925688" duration="8402000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionUtilTest - 2023.09.10 at 01h 33m 34s.xml">
-      <configuration name="CollectionUtilTest" configurationId="JUnit" />
+    <history-entry file="StringsTest - 2023.09.10 at 15h 50m 15s.xml">
+      <configuration name="StringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest - 2023.09.10 at 01h 36m 58s.xml">
-      <configuration name="CollectionUtilTest" configurationId="JUnit" />
+    <history-entry file="StringsTest_padFromLeft - 2023.09.10 at 15h 54m 03s.xml">
+      <configuration name="StringsTest.padFromLeft" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest_foreachRight - 2023.09.10 at 01h 41m 27s.xml">
-      <configuration name="CollectionUtilTest.foreachRight" configurationId="JUnit" />
+    <history-entry file="StringsTest_padFromLeft - 2023.09.10 at 15h 54m 14s.xml">
+      <configuration name="StringsTest.padFromLeft" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest_foreachRight - 2023.09.10 at 01h 41m 54s.xml">
-      <configuration name="CollectionUtilTest.foreachRight" configurationId="JUnit" />
+    <history-entry file="StringsTest_fileToTail - 2023.09.10 at 16h 02m 37s.xml">
+      <configuration name="StringsTest.fileToTail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest_foreachRight - 2023.09.10 at 01h 42m 23s.xml">
-      <configuration name="CollectionUtilTest.foreachRight" configurationId="JUnit" />
+    <history-entry file="StringsTest_fileToTail - 2023.09.10 at 16h 02m 54s.xml">
+      <configuration name="StringsTest.fileToTail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest_foreachRight - 2023.09.10 at 01h 42m 30s.xml">
-      <configuration name="CollectionUtilTest.foreachRight" configurationId="JUnit" />
+    <history-entry file="StringsTest_repeat - 2023.09.10 at 16h 09m 34s.xml">
+      <configuration name="StringsTest.repeat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest_foreachRight - 2023.09.10 at 01h 42m 56s.xml">
-      <configuration name="CollectionUtilTest.foreachRight" configurationId="JUnit" />
+    <history-entry file="StringsTest_repeat - 2023.09.10 at 16h 12m 18s.xml">
+      <configuration name="StringsTest.repeat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest_foreachRight - 2023.09.10 at 01h 47m 21s.xml">
-      <configuration name="CollectionUtilTest.foreachRight" configurationId="JUnit" />
+    <history-entry file="StringsTest - 2023.09.10 at 16h 12m 24s.xml">
+      <configuration name="StringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest_foreachRight - 2023.09.10 at 01h 47m 28s.xml">
-      <configuration name="CollectionUtilTest.foreachRight" configurationId="JUnit" />
+    <history-entry file="StringsTest - 2023.09.10 at 16h 12m 55s.xml">
+      <configuration name="StringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionUtilTest - 2023.09.10 at 01h 53m 15s.xml">
-      <configuration name="CollectionUtilTest" configurationId="JUnit" />
+    <history-entry file="StringsTest - 2023.09.10 at 16h 13m 20s.xml">
+      <configuration name="StringsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4933000" />
+    <option name="totallyTimeSpent" value="8402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="640" y="1467" width="1920" height="1009" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" weight="0.32798165" />
       <window_info anchor="bottom" id="Terminal" weight="0.5298165" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42431194" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31880733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" weight="0.32959402" />
+      <window_info anchor="right" id="Maven" weight="0.24893162" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -721,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -769,14 +791,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/idevkit/lib/jdash/collection/CollectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="-8">
+          <caret column="40" selection-start-column="8" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/jdk1.8.0_181/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="6755" column="26" selection-start-line="6755" selection-start-column="26" selection-end-line="6755" selection-end-column="26" />
+          <folding>
+            <element signature="e#244767#244768#0" expanded="true" />
+            <element signature="e#244811#244812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1447" column="34" selection-start-line="1447" selection-start-column="28" selection-end-line="1447" selection-end-column="34" />
+          <folding>
+            <element signature="e#56437#56438#0" expanded="true" />
+            <element signature="e#56514#56515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/soft/jdk/jdk1.8.0_181/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="449" column="13" selection-start-line="449" selection-start-column="8" selection-end-line="449" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/src/test/java/com/idevkit/lib/jdash/str/StringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="116" column="41" lean-forward="true" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/src/main/java/com/idevkit/lib/jdash/str/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;method#empty#0;class#Strings#0" />
+            <element signature="method#blank#0;class#Strings#0" />
+            <element signature="e#375#411#1" />
+            <element signature="e#488#593#1" />
+            <element signature="e#538#583#1" />
+            <element signature="docComment;method#cameCase#0;class#Strings#0" />
+            <element signature="method#capitalize#0;class#Strings#0" />
+            <element signature="e#366#395#1" />
+            <element signature="method#upperCaseFirst#1;class#Strings#0" />
+            <element signature="e#1190#1225#1" />
+            <element signature="n#!!block;n#upperCase#0;n#Strings#0" />
+            <element signature="n#!!block;n#lowerCase#0;n#Strings#0" />
+            <element signature="method#endWith#0;class#Strings#0" />
+            <element signature="e#1186#1223#1" />
+            <element signature="method#padFromRight#0;class#Strings#0" />
+            <element signature="e#1643#1678#1" />
+            <element signature="e#1770#1799#1" />
+            <element signature="e#1860#1891#1" />
+            <element signature="method#padFromLeft#0;class#Strings#0" />
+            <element signature="e#2070#2103#1" />
+            <element signature="e#2193#2237#1" />
+            <element signature="e#2306#2355#1" />
+            <element signature="method#repeat#0;class#Strings#0" />
+            <element signature="e#2626#2657#1" />
+            <element signature="e#2773#2803#1" />
+            <element signature="e#3308#3309#0" expanded="true" />
+            <element signature="e#3325#3326#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -834,7 +941,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>collection</last-edited>
+          <last-edited>string</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
