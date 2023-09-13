@@ -4,7 +4,6 @@ public class Strings {
 
     public final static String EMPTY = "";
 
-
     /**
      * 判断字符串是否是空字符串
      *
@@ -16,10 +15,20 @@ public class Strings {
         return str == null || str.length() == 0;
     }
 
+    /**
+     * 判断字符串是够不是空字符串
+     * 
+     * @since 1.0-beta
+     */
     public static boolean notEmpty(String str) {
         return !empty(str);
     }
 
+    /**
+     * 判断字符串是否是空白字符串
+     * 
+     * @since 1.0-beta
+     */
     public static boolean blank(String str) {
         if (empty(str)) {
             return true;
@@ -35,10 +44,14 @@ public class Strings {
         return true;
     }
 
+    /**
+     * 判断字符串是否不是空白字符串
+     * 
+     * @since 1.0-beta
+     */
     public static boolean notBlank(String str) {
         return !blank(str);
     }
-
 
     /**
      * 转换字符串为驼峰写法
@@ -48,10 +61,19 @@ public class Strings {
      * @apiNote https://en.wikipedia.org/wiki/CamelCase
      */
     public static String cameCase(String str) {
+        if (blank(str)) {
+            return str;
+        }
+
+        char[] chs = str.toCharArray();
         return "";
     }
 
-
+    /**
+     * 将给定的字符串首字母大写
+     * 
+     * @since 1.0-beta
+     */
     public static String upperCaseFirst(String str) {
         if (str == null || str.length() == 0) {
             return str;
@@ -60,6 +82,11 @@ public class Strings {
         return str.substring(0, 1).toUpperCase() + str.substring(1, str.length());
     }
 
+    /**
+     * 将给定的字符串首字母小写
+     * 
+     * @since 1.0-beta
+     */
     public static String lowerCaseFirst(String str) {
         if (str == null || str.length() == 0) {
             return str;
@@ -68,15 +95,29 @@ public class Strings {
         return str.substring(0, 1).toLowerCase() + str.substring(1, str.length());
     }
 
-
+    /**
+     * 将给定的字符串大写
+     * 
+     * @since 1.0-beta
+     */
     public static String upperCase(String str) {
         return blank(str) ? str : str.toUpperCase();
     }
 
+    /**
+     * 将给定的字符串小写
+     * 
+     * @since 1.0-beta
+     */
     public static String lowerCase(String str) {
         return blank(str) ? str : str.toLowerCase();
     }
 
+    /**
+     * 判断字符串是否以制定字符串结尾
+     * 
+     * @since 1.0-beta
+     */
     public static boolean endWith(String str, String endStr) {
         if (str == null || str.length() == 0) {
             return false;
@@ -85,6 +126,9 @@ public class Strings {
         return str.endsWith(endStr);
     }
 
+    /**
+     * 当字符串长度不满足要求的时候，在开头填充制定字符
+     */
     public static String padStart(String str, int length, char fillChar) {
         int strLen = str.length();
         if (strLen >= length) {
@@ -103,6 +147,9 @@ public class Strings {
         return String.valueOf(chars);
     }
 
+    /**
+     * 当字符串长度不满足要求的时候，在结尾填充制定字符
+     */
     public static String padEnd(String str, int length, char fillChar) {
         int strLen = str.length();
         if (strLen >= length) {
@@ -114,17 +161,17 @@ public class Strings {
             chars[i] = fillChar;
         }
 
-
         for (int i = length - strLen; i < length; i++) {
             chars[i] = str.charAt(i - (length - strLen));
         }
 
-
         return String.valueOf(chars);
-
 
     }
 
+    /**
+     * 重复字符串
+     */
     public static String repeat(String str, int repeatCount) {
         if (empty(str)) {
             return str;
@@ -137,6 +184,9 @@ public class Strings {
         return builder.toString();
     }
 
+    /**
+     * 移除字符串首尾的字符
+     */
     public static String trim(String str, char ch) {
         if (blank(str)) {
             return EMPTY;
@@ -144,6 +194,9 @@ public class Strings {
         return null;
     }
 
+    /**
+     * 移除字符串首尾的空白字符
+     */
     public static String trimWhiteChar(String str) {
         return null;
     }
